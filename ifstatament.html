@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- if statement -->
+    <script>
+        var x= 20;
+        if(x > 30){
+            document.write("x value is greater than 10");
+        }
+        else{
+            document.write("x value is false");
+        }
+        
+        var marks=85;
+        if(marks > 90){
+            document.write("A grade");
+          }
+          else if( marks > 75){
+            document.write("B grade");
+          }
+          else if( marks > 50){
+            document.write("C grade");
+          }
+          else if( marks > 36){
+            document.write("D grade");
+          }
+          else{
+            document.write("fail");
+          }
+        //   switch
+          var marks=32;
+          switch(true){
+            case marks >90 :result=" A GRADE";
+            break;
+            case marks >75 :result=" B GRADE";
+            break;
+            case marks >60 :result=" C GRADE";
+            break;
+            case marks >45  :result=" D GRADE";
+            break;
+            case marks >36  :result=" E GRADE";
+            break;
+          default:result="fail";
+          }
+          document.write(result);
+    </script>
+</body>
+</html>
